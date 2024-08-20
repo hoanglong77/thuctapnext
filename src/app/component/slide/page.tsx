@@ -1,4 +1,3 @@
-// components/Slider.js
 import React from 'react';
 import { FaRegImages } from "react-icons/fa";
 import styles from './page.module.css'; 
@@ -15,10 +14,10 @@ const Slider = () => {
       </div>
       <div className={styles.controls}>
         <button className={styles.controlButton} aria-label="Previous slide">
-          &lt; {/* Icon cho nút lùi */}
+          &lt; 
         </button>
         <button className={styles.controlButton} aria-label="Next slide">
-          &gt; {/* Icon cho nút tiến */}
+          &gt; 
         </button>
       </div>
       <div className={styles.pagination}>

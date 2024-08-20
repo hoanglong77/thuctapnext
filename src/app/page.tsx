@@ -1,4 +1,3 @@
-// pages/index.js hoặc một trang khác
 import Slider from '../app/component/slide/page';
 import Header from '../app/component/heder/page'
 import Home from '../app/component/home/page'

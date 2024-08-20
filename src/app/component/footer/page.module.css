@@ -1,5 +1,4 @@
 
-/* Desktop Styles */
 .footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -79,7 +78,7 @@
     background-color: #fefcfc;
 }
 
-/* Mobile Styles */
+
 @media (max-width: 768px) {
     .footer {
         display: block;

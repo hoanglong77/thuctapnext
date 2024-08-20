@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BsCart, BsPerson, BsSearch, BsChevronDown, BsList } from 'react-icons/bs';
+import Link from "next/link";
 import styles from './page.module.css';
 
 const Header = () => {
@@ -56,7 +57,7 @@ const Header = () => {
           <div className="col d-none d-md-block">
             <ul className="nav">
               <li className="nav-item">
-                <a href="#" className={`btn text-dark`}>Skincare</a>
+             <Link href="/test" className="btn text-dark">Skincare </Link>
               </li>
               <li className="nav-item">
                 <a href="#" className={`btn text-dark`}>Make Up</a>
